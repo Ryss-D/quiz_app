@@ -25,10 +25,10 @@ class Score extends StatelessWidget {
         children: [
           Text(
             scorePhrase,
-            style: TextStyle(fontSize: 36, fontWeight: FontWeight.bold),
+            style: const TextStyle(fontSize: 36, fontWeight: FontWeight.bold),
             textAlign: TextAlign.center,
           ),
-          ElevatedButton(onPressed: resetHandler, child: Text("Restart button"))
+          ElevatedButton(onPressed: resetHandler, child: const Text("Restart button"))
         ],
         mainAxisAlignment: MainAxisAlignment.center,
       ),

@@ -74,7 +74,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
         home: Scaffold(
       appBar: AppBar(
-        title: Text('Quiz App'),
+        title: const Text('Quiz App'),
       ),
       // logical expression ? result if is true : result if is false
       body: _questionIndex < _questions.length
